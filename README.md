@@ -68,8 +68,8 @@ console.log(toRupiah(50000, {replaceZeroDecimals: true}));
 // Output: Rp50.000,-
 console.log(toRupiah(50000, {useUnit: true, floatingPoint: 0}));
 // Output: Rp50rb
-console.log(toRupiah(50000, {symbol: false, useUnit: true, k: true, floatingPoint: 0}));
-// Output: 50k
+console.log(toRupiah(50000, {symbol: 'IDR', formal: false, useUnit: true, k: true, floatingPoint: 0}));
+// Output: IDR 50k
 console.log(toRupiah(50000, {symbol: false, useUnit: true, longUnit: true, spaceBeforeUnit: true, floatingPoint: 0}));
 // Output: 50 ribu
 console.log(toRupiah(50750000000, {useUnit: true, longUnit: true, spaceBeforeUnit: true, formal: false}));

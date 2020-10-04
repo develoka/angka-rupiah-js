@@ -1,11 +1,11 @@
 {
   "name": "@develoka/angka-rupiah-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mengkonversi angka ke dalam format penulisan mata uang rupiah",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "browserify -t [ babelify --presets [ @babel/preset-env ] ] -t uglifyify index.js --standalone angkaTerbilang > index.min.js"
+    "build": "browserify -t [ babelify --presets [ @babel/preset-env ] ] -t uglifyify index.js --standalone toRupiah > index.min.js"
   },
   "repository": {
     "type": "git",
