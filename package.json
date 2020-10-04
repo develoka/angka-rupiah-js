@@ -1,5 +1,5 @@
 {
-  "name": "angka-rupiah-js",
+  "name": "@develoka/angka-rupiah-js",
   "version": "1.0.0",
   "description": "Mengkonversi angka ke dalam format penulisan mata uang rupiah",
   "main": "index.js",
