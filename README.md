@@ -80,7 +80,7 @@ console.log(toRupiah(5250, {useUnit: true, symbol: null, k: true}));
 
 ## Testing
 
-Testing menggunakan [jest](https://jestjs.io/). Lihat [file tests](https://github.com/develoka/angka-terbilang-js/blob/master/test/index.test.js).
+Testing menggunakan [jest](https://jestjs.io/). Lihat [file tests](https://github.com/develoka/angka-rupiah-js/blob/main/test/index.test.js).
 
 ```
 npm install
