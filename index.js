@@ -32,11 +32,15 @@ const dotsFormatter = (target, settings) => {
   }
 
   const angkaDepan = result.join('')
-  const angkaBelakang = commaFormatter(angka[1] || null, settings)
 
-  return settings.floatingPoint > 0
-    ? angkaDepan + settings.decimal + angkaBelakang
-    : angkaDepan
+  if (settings.removeZeroDecimals && !angka[1]) {
+    return angkaDepan;
+  } else {
+    const angkaBelakang = commaFormatter(angka[1] || null, settings)
+    return settings.floatingPoint > 0
+      ? angkaDepan + settings.decimal + angkaBelakang
+      : angkaDepan
+  }
 }
 
 /* Append or prepend currency symbol based on formal / informal use */
@@ -86,6 +90,7 @@ const defaultSettings = {
   decimal: ',',
   floatingPoint: 2,
   replaceZeroDecimals: false, // Rp100.000,-
+  removeZeroDecimals: false,
   k: false, // k
   useUnit: false, // rb, jt, M, T
   longUnit: false, // ribu, juta, milyar, triliun

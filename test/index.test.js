@@ -76,6 +76,9 @@ test('unit', () => {
     expect(toRupiah(12, {useUnit: true, symbol: null, floatingPoint: 0})).toBe('12');
     expect(toRupiah(123, {useUnit: true, symbol: null, floatingPoint: 0})).toBe('123');
 
+    expect(toRupiah(12, {useUnit: true, symbol: null, k: true})).toBe('12,00');
+    expect(toRupiah(12, {useUnit: true, symbol: null, k: true, removeZeroDecimals: true})).toBe('12');
+
     expect(toRupiah(1234, {useUnit: true, symbol: null, k: true})).toBe('1,23k');
     expect(toRupiah(1234, {useUnit: true, symbol: null})).toBe('1,23rb');
     expect(toRupiah(12345, {useUnit: true, symbol: null})).toBe('12,34rb');
