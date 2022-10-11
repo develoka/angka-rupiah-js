@@ -1,9 +1,9 @@
-# Angka-rupiah-js [![NPM Version](https://img.shields.io/npm/v/@develoka/angka-rupiah-js.svg)](https://www.npmjs.com/package/@develoka/angka-rupiah-js) [![Minified Size](https://img.shields.io/bundlephobia/min/@develoka/angka-rupiah-js.svg)](https://www.npmjs.com/package/@develoka/angka-rupiah-js)
+# Angka-rupiah-js [![NPM Version](https://img.shields.io/npm/v/@develoka/angka-rupiah-js.svg)](https://www.npmjs.com/package/@develoka/angka-rupiah-js) [![Minified Size](https://img.shields.io/bundlephobia/min/@develoka/angka-rupiah-js.svg)](https://www.npmjs.com/package/@develoka/angka-rupiah-js) [![NPM Downloads](https://img.shields.io/npm/dt/@develoka/angka-rupiah-js)](https://www.npmjs.com/package/@develoka/angka-rupiah-js)
 Mengkonversi angka ke dalam format penulisan mata uang rupiah
 
 ## Demo
 
-[Link Demo](https://code.bakasyntax.com/gist/735ee864fba07f730c7afe6cf76daac6?default-pans=html,js,output)
+[Link Demo](https://labs.codesenpai.com/gist/735ee864fba07f730c7afe6cf76daac6?default-pans=html,js,output)
 
 ## Instalasi dan Penggunaan
 
