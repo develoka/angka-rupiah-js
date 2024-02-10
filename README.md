@@ -3,7 +3,7 @@ Mengkonversi angka ke dalam format penulisan mata uang rupiah
 
 ## Demo
 
-[Link Demo](https://labs.codesenpai.com/gist/735ee864fba07f730c7afe6cf76daac6?default-pans=html,js,output)
+[Link Demo](https://code.duapx.id/gist/735ee864fba07f730c7afe6cf76daac6?default-pans=html,js,output)
 
 ## Instalasi dan Penggunaan
 
